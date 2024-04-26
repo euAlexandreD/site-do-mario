@@ -1,0 +1,36 @@
+@media (min-width: 734px) {
+  body {
+    background-image: url("../assets/mario-and-luigi-matrix-luigi-mario-snes-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .links-header {
+    gap: 6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .center-window {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-description {
+    width: 30rem;
+    margin-top: 20rem;
+    margin-left: 18px;
+    text-align: left;
+  }
+
+  .description {
+    width: 35rem;
+    text-align: left;
+  }
+
+  button {
+    margin-top: 0;
+  }
+}
